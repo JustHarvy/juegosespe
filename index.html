@@ -3,9 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GamerFest</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Hola mundo</h1>
+    <main class="container py-5">
+        <header class="text-center mb-5">
+            <h1>GamerFest</h1>
+            <p>Bienvenido a GamerFest, tu evento de videojuegos favorito!</p>
+        </header>
+
+        <div class="row g-4">
+            <section class="col-12 col-md-4" aria-labelledby="cod-title">
+                <div class="card h-100">
+                    <a href="j1.html">
+                        <img src="/img/indexcod.png" class="card-img-top" alt="Call of Duty Mobile">
+                    </a>
+                    <div class="card-body">
+                        <h2 class="card-title h4" id="cod-title">Call Of Duty Mobile</h2>
+                        <p class="card-text">Compite en partidas multijugador llenas de acción y estrategia.</p>
+                        <span class="badge bg-success">Acción</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="col-12 col-md-4" aria-labelledby="dbz-title">
+                <div class="card h-100">
+                    <a href="j2.html">
+                        <img src="/img/indexdbz.png" class="card-img-top" alt="Dragon Ball: Sparking! Zero">
+                    </a>
+                    <div class="card-body">
+                        <h2 class="card-title h4" id="dbz-title">DBZ Sparking Zero</h2>
+                        <p class="card-text">Disfruta de combates intensos con tus personajes favoritos de Dragon Ball.</p>
+                        <span class="badge bg-primary">Lucha</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="col-12 col-md-4" aria-labelledby="mario-title">
+                <div class="card h-100">
+                    <a href="j3.html">
+                        <img src="/img/indexmariokart.png" class="card-img-top" alt="Mario Kart World">
+                    </a>
+                    <div class="card-body">
+                        <h2 class="card-title h4" id="mario-title">Mario Kart World</h2>
+                        <p class="card-text">Acelera y compite en carreras divertidas con tus personajes favoritos.</p>
+                        <span class="badge bg-danger">Carreras</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
 </body>
 </html>
